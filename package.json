@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "form-data": "^2.3.3",
+    "mongoose": "^6.0.13",
+    "node-fetch": "^2.6.1",
+    "node-telegram-bot-api": "^0.54.0"
+  },
+  "name": "fake_evos_bot",
+  "description": "This bot is intended for learning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MRXDeveloper23/fake_evos_bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MRXDeveloper23/fake_evos_bot/issues"
+  },
+  "homepage": "https://github.com/MRXDeveloper23/fake_evos_bot#readme"
+}
